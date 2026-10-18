@@ -76,6 +76,10 @@ Jedes Ziel wird gegen seine registrierte Berechtigung geprüft. Toolset Access u
 
 Die Toolbar ergänzt keine eigenen Datenbanktabellen, REST-Endpunkte oder Telemetrie. Das kleine Stylesheet und der Dialog-Controller laden nur auf der QuickNav-Einstellungsseite. Netzwerkaufrufe mitgelieferter Komponenten sind gesondert dokumentiert.
 
+### Website-Zustand: kompakte Diagnose
+
+Unter Werkzeuge → Website-Zustand → Bericht zeigt Types & Fields QuickNav eine kompakte Zusammenfassung: Version, erkannte Provider, eingeschaltete Provider und Add-ons, Frontend-Navigation, Inhaltslisten sowie eingerichtete Rollen- und Benutzersperren als Ja/Nein. Keine Rollennamen, Benutzernamen oder Benutzer-IDs werden ausgegeben. Der Abschnitt erzeugt keine Gesundheitswarnungen und ist nur mit der WordPress-Berechtigung für den Website-Zustand zugänglich.
+
 Die Verfügbarkeit hängt vom aktiven Provider, eingeschalteten Modulen, registrierten Verwaltungsmenüs und den Berechtigungen des aktuellen Benutzers ab. ACF und Secure Custom Fields teilen Laufzeitkennungen; nur die tatsächlich geladene Implementierung erhält einen Zweig. Menübasierte Ziele einschließlich der Toolset-Seiten erscheinen nur im Verwaltungsbereich. Die ACF-Add-on-Navigation ist auf ACF beschränkt. ACF Extended Basic ist geprüft; die Pro-Ausgabe ist nicht verifiziert. QuickNav verlinkt vorhandene Verwaltungsseiten und führt keine Migrationen oder Provider-Konfiguration durch. Vollständige Editor-, Kartendienst-, Lizenz-, Checkout- und Migrationsabläufe gehören nicht zum Navigationstest. [Provider-Abdeckung und Prüfgrenzen](docs/PROVIDERS-de.md).
 
 ## FAQ

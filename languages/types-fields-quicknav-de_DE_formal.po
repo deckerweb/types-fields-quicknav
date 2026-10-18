@@ -25,6 +25,9 @@ msgstr "Die Aktivität der Add-ons und ihre Anzeige durch QuickNav sind unabhän
 msgid "Add-ons"
 msgstr "Add-ons"
 
+msgid "Add-ons enabled in QuickNav"
+msgstr "In QuickNav eingeschaltete Add-ons"
+
 msgid "Also show navigation in the frontend toolbar"
 msgstr "Navigation auch in der Frontend-Toolbar anzeigen"
 
@@ -76,6 +79,9 @@ msgstr "QuickNav-Einstellungen dieser Website bei der Deinstallation löschen"
 msgid "Detected"
 msgstr "Erkannt"
 
+msgid "Detected providers"
+msgstr "Erkannte Provider"
+
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -117,6 +123,9 @@ msgstr "Formulare"
 
 msgid "Forms Commerce settings"
 msgstr "Forms-Commerce-Einstellungen"
+
+msgid "Frontend toolbar navigation enabled"
+msgstr "Frontend-Toolbar-Navigation eingeschaltet"
 
 msgid "General"
 msgstr "Allgemein"
@@ -199,11 +208,17 @@ msgstr "Menüpunkte"
 msgid "New:"
 msgstr "Neu:"
 
+msgid "No"
+msgstr "Nein"
+
 msgid "No accessible navigation targets. Check the required provider, enabled modules and permissions."
 msgstr "Keine zugänglichen Navigationsziele. Voraussetzung sind der passende Provider, aktivierte Module und ausreichende Berechtigungen."
 
 msgid "No supported provider is currently active. Settings remain available."
 msgstr "Derzeit ist kein unterstützter Provider aktiv. Die Einstellungen bleiben verfügbar."
+
+msgid "None"
+msgstr "Keine"
 
 msgid "Not detected"
 msgstr "Nicht erkannt"
@@ -235,6 +250,9 @@ msgstr "Provider-Einstellungen"
 msgid "Providers and navigation"
 msgstr "Provider und Navigation"
 
+msgid "Providers enabled in QuickNav"
+msgstr "In QuickNav eingeschaltete Provider"
+
 msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
 msgstr "QUICKNAV-Serienbadge in den deutschen und englischen Bannern; das Icon bleibt unverändert."
 
@@ -250,17 +268,26 @@ msgstr "Beziehungsformulare"
 msgid "Relationships"
 msgstr "Beziehungen"
 
+msgid "Role exclusions configured"
+msgstr "Rollensperren eingerichtet"
+
 msgid "See the release on GitHub."
 msgstr "Sehen Sie sich den Release auf GitHub an."
 
 msgid "Selected ACF add-on navigation, separate optional content lists and an optional frontend toolbar."
 msgstr "Navigation für ausgewählte ACF-Add-ons, getrennte optionale Inhaltslisten und eine optionale Frontend-Toolbar."
 
+msgid "Separate content lists enabled"
+msgstr "Separate Inhaltslisten eingeschaltet"
+
 msgid "Settings"
 msgstr "Einstellungen"
 
 msgid "Settings and modules"
 msgstr "Einstellungen und Module"
+
+msgid "Settings apply to this website. Enabled switches do not imply that a provider or navigation destination is available. Exclusions are reported without role names, usernames or user IDs."
+msgstr "Die Einstellungen gelten für diese Website. Eingeschaltete Schalter bedeuten nicht, dass ein Provider oder Navigationsziel verfügbar ist. Sperren werden ohne Rollennamen, Benutzernamen oder Benutzer-IDs angegeben."
 
 msgid "Settings section links jump directly to providers, add-ons and general preferences; general settings now have their own heading and divider."
 msgstr "Sprunglinks führen direkt zu Providern, Add-ons und allgemeinen Einstellungen; die allgemeinen Einstellungen haben eine eigene Überschrift und Trennlinie."
@@ -328,6 +355,9 @@ msgstr "Nicht verfügbar oder nicht berechtigt"
 msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
 msgstr "Nicht verfügbar: Das benötigte Modul oder die Verwaltungsseite fehlt, oder die Berechtigung reicht nicht aus. Gespeicherte Einstellungen bleiben erhalten."
 
+msgid "User exclusions configured"
+msgstr "Benutzersperren eingerichtet"
+
 msgid "User forms"
 msgstr "Benutzerformulare"
 
@@ -354,6 +384,9 @@ msgstr "WooCommerce-Blocks-Einstellungen"
 
 msgid "WordPress archives"
 msgstr "WordPress-Archive"
+
+msgid "Yes"
+msgstr "Ja"
 
 msgid "You do not have permission to manage these settings."
 msgstr "Sie haben keine Berechtigung, diese Einstellungen zu verwalten."

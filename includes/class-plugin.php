@@ -33,6 +33,10 @@ final class Plugin {
 		add_action( 'admin_bar_menu', [ self::class, 'toolbar' ], 200 );
 		require_once __DIR__ . '/class-acf-addons.php';
 		Settings::hooks();
+		if ( is_admin() ) {
+			require_once __DIR__ . '/class-site-health.php';
+			add_filter( 'debug_information', [ SiteHealth::class, 'information' ] );
+		}
 	}
 
 	/**

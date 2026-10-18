@@ -84,3 +84,7 @@ No. Obtain supported providers and licenses from their vendors.
 
 See [Data and privacy](DATA.md) and [Settings](SETTINGS.md).
 
+### What QuickNav data does Site Health show?
+
+Tools → Site Health → Info includes a compact Types & Fields QuickNav summary: version, detected providers, enabled provider and add-on switches, frontend navigation, content lists, and whether role or user exclusions are configured. No role names, usernames or user IDs are included. The section adds no health warnings and requires the native WordPress Site Health permission.
+

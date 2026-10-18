@@ -76,6 +76,10 @@ Each destination is checked against its registered capability. Toolset Access an
 
 The toolbar adds no custom database tables, REST endpoints or telemetry. The small stylesheet and dialog controller load only on the QuickNav settings page. Bundled component network requests are documented separately.
 
+### Site Health: compact diagnostics
+
+Tools → Site Health → Info includes a compact Types & Fields QuickNav summary: version, detected providers, enabled provider and add-on switches, frontend navigation, content lists, and whether role or user exclusions are configured. No role names, usernames or user IDs are included. The section adds no health warnings and requires the native WordPress Site Health permission.
+
 Availability depends on the active provider, enabled modules, native administration menus and the current user’s permissions. ACF and Secure Custom Fields share runtime identifiers; only the implementation actually loaded gets a branch. Menu-based destinations, including Toolset pages, are administration-only. ACF add-on navigation is limited to ACF. ACF Extended Basic is checked; its Pro edition is not verified. QuickNav links to existing administration pages and does not migrate data or configure the providers. Full editor, map service, licensing, checkout and migration workflows are outside the navigation test scope. [Provider coverage and test boundaries](docs/PROVIDERS.md).
 
 ## FAQ

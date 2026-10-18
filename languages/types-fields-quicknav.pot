@@ -25,6 +25,9 @@ msgstr ""
 msgid "Add-ons"
 msgstr ""
 
+msgid "Add-ons enabled in QuickNav"
+msgstr ""
+
 msgid "Also show navigation in the frontend toolbar"
 msgstr ""
 
@@ -76,6 +79,9 @@ msgstr ""
 msgid "Detected"
 msgstr ""
 
+msgid "Detected providers"
+msgstr ""
+
 msgid "Documentation"
 msgstr ""
 
@@ -116,6 +122,9 @@ msgid "Forms"
 msgstr ""
 
 msgid "Forms Commerce settings"
+msgstr ""
+
+msgid "Frontend toolbar navigation enabled"
 msgstr ""
 
 msgid "General"
@@ -199,10 +208,16 @@ msgstr ""
 msgid "New:"
 msgstr ""
 
+msgid "No"
+msgstr ""
+
 msgid "No accessible navigation targets. Check the required provider, enabled modules and permissions."
 msgstr ""
 
 msgid "No supported provider is currently active. Settings remain available."
+msgstr ""
+
+msgid "None"
 msgstr ""
 
 msgid "Not detected"
@@ -235,6 +250,9 @@ msgstr ""
 msgid "Providers and navigation"
 msgstr ""
 
+msgid "Providers enabled in QuickNav"
+msgstr ""
+
 msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
 msgstr ""
 
@@ -250,16 +268,25 @@ msgstr ""
 msgid "Relationships"
 msgstr ""
 
+msgid "Role exclusions configured"
+msgstr ""
+
 msgid "See the release on GitHub."
 msgstr ""
 
 msgid "Selected ACF add-on navigation, separate optional content lists and an optional frontend toolbar."
 msgstr ""
 
+msgid "Separate content lists enabled"
+msgstr ""
+
 msgid "Settings"
 msgstr ""
 
 msgid "Settings and modules"
+msgstr ""
+
+msgid "Settings apply to this website. Enabled switches do not imply that a provider or navigation destination is available. Exclusions are reported without role names, usernames or user IDs."
 msgstr ""
 
 msgid "Settings section links jump directly to providers, add-ons and general preferences; general settings now have their own heading and divider."
@@ -328,6 +355,9 @@ msgstr ""
 msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
 msgstr ""
 
+msgid "User exclusions configured"
+msgstr ""
+
 msgid "User forms"
 msgstr ""
 
@@ -353,6 +383,9 @@ msgid "WooCommerce Blocks settings"
 msgstr ""
 
 msgid "WordPress archives"
+msgstr ""
+
+msgid "Yes"
 msgstr ""
 
 msgid "You do not have permission to manage these settings."

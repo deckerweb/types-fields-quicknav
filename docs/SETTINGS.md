@@ -32,3 +32,7 @@ These exclusions only affect this plugin's navigation. They do not revoke provid
 ## Removal
 
 Settings are preserved by default. Enable the explicit deletion option before uninstalling if you want this website's QuickNav option removed. Provider data and content are never deleted. Shared deckerweb Library data follows the Library's separate settings.
+
+## Site Health: compact diagnostics
+
+Tools → Site Health → Info includes a compact Types & Fields QuickNav summary: version, detected providers, enabled provider and add-on switches, frontend navigation, content lists, and whether role or user exclusions are configured. No role names, usernames or user IDs are included. The section adds no health warnings and requires the native WordPress Site Health permission.

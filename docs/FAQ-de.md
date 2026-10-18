@@ -84,3 +84,7 @@ Nein. Unterstützte Provider und Lizenzen beziehst du bei ihren Herstellern.
 
 Unter [Daten und Datenschutz](DATA-de.md) und [Einstellungen](SETTINGS-de.md).
 
+### Welche QuickNav-Daten zeigt der Website-Zustand?
+
+Unter Werkzeuge → Website-Zustand → Bericht zeigt Types & Fields QuickNav eine kompakte Zusammenfassung: Version, erkannte Provider, eingeschaltete Provider und Add-ons, Frontend-Navigation, Inhaltslisten sowie eingerichtete Rollen- und Benutzersperren als Ja/Nein. Keine Rollennamen, Benutzernamen oder Benutzer-IDs werden ausgegeben. Der Abschnitt erzeugt keine Gesundheitswarnungen und ist nur mit der WordPress-Berechtigung für den Website-Zustand zugänglich.
+

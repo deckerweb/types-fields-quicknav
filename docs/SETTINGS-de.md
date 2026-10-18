@@ -32,3 +32,7 @@ Diese Sperren betreffen nur die Navigation dieses Plugins. Sie entziehen keine P
 ## Deinstallation
 
 Standardmäßig bleiben Einstellungen erhalten. Wer die QuickNav-Option dieser Website löschen möchte, aktiviert vor der Deinstallation die ausdrückliche Löschoption. Provider-Daten und Inhalte werden niemals gelöscht. Für gemeinsame Daten der deckerweb Library gelten deren eigene Einstellungen.
+
+## Website-Zustand: kompakte Diagnose
+
+Unter Werkzeuge → Website-Zustand → Bericht zeigt Types & Fields QuickNav eine kompakte Zusammenfassung: Version, erkannte Provider, eingeschaltete Provider und Add-ons, Frontend-Navigation, Inhaltslisten sowie eingerichtete Rollen- und Benutzersperren als Ja/Nein. Keine Rollennamen, Benutzernamen oder Benutzer-IDs werden ausgegeben. Der Abschnitt erzeugt keine Gesundheitswarnungen und ist nur mit der WordPress-Berechtigung für den Website-Zustand zugänglich.
