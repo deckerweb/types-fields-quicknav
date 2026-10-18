@@ -14,6 +14,14 @@ It is part of the **deckerweb QuickNav series**: small, focused tools that make 
 
 Whether you maintain your own projects or move between client websites, Types & Fields QuickNav adapts to the providers that are actually available. Configure the navigation for each website and decide who sees it.
 
+## Featured Highlights
+
+- **One menu for your types and fields tools.** Reach field groups, type definitions, taxonomies and available settings directly from the WordPress toolbar.
+- **Adapts to your website.** Detects active providers and available features, including several compatible systems on one website.
+- **Control visibility for client work.** Hide the entire QuickNav entry from selected roles or individual users.
+- **Keep definitions and content separate.** Maintain clear administration navigation; enable a separate content-list branch when needed.
+- **Choose the navigation you need.** Select providers and individual destinations; optionally include the frontend toolbar.
+
 ## Features
 
 - Navigation for ACF Free/Pro, Meta Box with available extensions, JetEngine, ACPT Free/Pro and Pods.

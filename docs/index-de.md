@@ -14,6 +14,14 @@ Das Plugin gehört zur **QuickNav-Serie von deckerweb**: kleine, gezielte Werkze
 
 Ob eigene Projekte oder wechselnde Kunden-Websites: Types & Fields QuickNav passt sich an die tatsächlich verfügbaren Provider an. Die Navigation lässt sich für jede Website konfigurieren – einschließlich der Frage, wer sie sehen darf.
 
+## Featured Highlights
+
+- **Ein Menü für deine Feld- und Inhaltstypen-Werkzeuge.** Feldgruppen, Inhaltstyp-Definitionen, Taxonomien und verfügbare Einstellungen direkt aus der WordPress-Toolbar erreichen.
+- **Passt sich deiner Website an.** Erkennt aktive Provider und verfügbare Funktionen – auch bei mehreren kompatiblen Systemen auf derselben Website.
+- **Für Kunden gezielt steuerbar.** Den gesamten QuickNav-Eintrag für ausgewählte Rollen oder einzelne Benutzer ausblenden.
+- **Definitionen und Inhalte klar getrennt.** Die Verwaltungsnavigation bleibt übersichtlich. Inhaltslisten lassen sich bei Bedarf separat einschalten.
+- **So viel Navigation, wie du brauchst.** Provider und einzelne Menüziele wählen; die Frontend-Toolbar optional hinzunehmen.
+
 ## Funktionen
 
 - Navigation für ACF Free/Pro, Meta Box mit verfügbaren Erweiterungen, JetEngine, ACPT Free/Pro und Pods.

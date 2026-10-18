@@ -31,6 +31,16 @@ Ob eigene Projekte oder wechselnde Kunden-Websites: Types & Fields QuickNav pass
 
 ## Auf einen Blick
 
+### Featured Highlights
+
+- **Ein Menü für deine Feld- und Inhaltstypen-Werkzeuge.** Feldgruppen, Inhaltstyp-Definitionen, Taxonomien und verfügbare Einstellungen direkt aus der WordPress-Toolbar erreichen.
+- **Passt sich deiner Website an.** Erkennt aktive Provider und verfügbare Funktionen – auch bei mehreren kompatiblen Systemen auf derselben Website.
+- **Für Kunden gezielt steuerbar.** Den gesamten QuickNav-Eintrag für ausgewählte Rollen oder einzelne Benutzer ausblenden.
+- **Definitionen und Inhalte klar getrennt.** Die Verwaltungsnavigation bleibt übersichtlich. Inhaltslisten lassen sich bei Bedarf separat einschalten.
+- **So viel Navigation, wie du brauchst.** Provider und einzelne Menüziele wählen; die Frontend-Toolbar optional hinzunehmen.
+
+### Weitere Funktionen
+
 - Navigation für ACF Free/Pro, Meta Box mit verfügbaren Erweiterungen, JetEngine, ACPT Free/Pro und Pods.
 - Zusätzliche modulare Navigation für die Toolset-Suite und Unterstützung für Secure Custom Fields.
 - Unabhängige Provider-Erkennung; mehrere kompatible Provider können gleichzeitig erscheinen.
