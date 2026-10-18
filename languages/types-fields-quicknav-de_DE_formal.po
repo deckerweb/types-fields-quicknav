@@ -1,0 +1,344 @@
+msgid ""
+msgstr "Project-Id-Version: Types & Fields QuickNav 1.0.0\nContent-Type: text/plain; charset=UTF-8\nLanguage: de_DE_formal\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "A matching role or username hides the entire Types & Fields QuickNav toolbar entry, including its settings link, in the administration area and frontend. These exclusions apply to this website only."
+msgstr "Eine passende Rolle oder ein gesperrter Benutzername blendet den gesamten Toolbar-Eintrag von Types & Fields QuickNav einschließlich seines Einstellungslinks im Verwaltungsbereich und Frontend aus. Diese Sperren gelten nur für diese Website."
+
+msgid "ACF add-ons"
+msgstr "ACF-Add-ons"
+
+msgid "ACF migration"
+msgstr "ACF-Migration"
+
+msgid "Access control"
+msgstr "Zugriffssteuerung"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Add-on activity and QuickNav visibility are separate. These switches only control toolbar links; they do not activate or configure the add-ons."
+msgstr "Die Aktivität der Add-ons und ihre Anzeige durch QuickNav sind unabhängig voneinander. Diese Schalter steuern nur Toolbar-Links; sie aktivieren oder konfigurieren die Add-ons selbst nicht."
+
+msgid "Add-ons"
+msgstr "Add-ons"
+
+msgid "Also show navigation in the frontend toolbar"
+msgstr "Navigation auch in der Frontend-Toolbar anzeigen"
+
+msgid "Block types"
+msgstr "Block-Typen"
+
+msgid "Changelog"
+msgstr "Änderungsverlauf"
+
+msgid "Clearly separated provider cards in a consistent order, readable availability badges and a dedicated add-on section showing activity, provider requirements and toolbar visibility."
+msgstr "Klar getrennte Provider-Karten in einheitlicher Reihenfolge, gut erkennbare Verfügbarkeitsanzeigen und ein eigener Add-on-Bereich mit Aktivität, Provider-Zuordnung und Toolbar-Anzeige."
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Configurable provider navigation, website settings and optional content lists."
+msgstr "Konfigurierbare Provider-Navigation, Website-Einstellungen und optionale Inhaltslisten."
+
+msgid "Configurable toolbar navigation for ACF, Meta Box, JetEngine, ACPT and Pods, with additional Toolset and Secure Custom Fields support."
+msgstr "Konfigurierbare Toolbar-Navigation für ACF, Meta Box, JetEngine, ACPT und Pods sowie zusätzliche Unterstützung für Toolset und Secure Custom Fields."
+
+msgid "Consistent plugin artwork in settings and documentation."
+msgstr "Einheitliche Plugin-Gestaltung in Einstellungen und Dokumentation."
+
+msgid "Content lists"
+msgstr "Inhaltslisten"
+
+msgid "Content templates"
+msgstr "Inhalts-Templates"
+
+msgid "Could not access the update filesystem."
+msgstr "Auf das Dateisystem für das Update konnte nicht zugegriffen werden."
+
+msgid "Could not create the update download file."
+msgstr "Die Datei für den Update-Download konnte nicht erstellt werden."
+
+msgid "Could not prepare the GitHub release package."
+msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
+
+msgid "Darker warm artwork backgrounds and a slightly more visible paper texture for better separation from the WordPress admin background."
+msgstr "Dunklere warme Grafikhintergründe und eine etwas deutlichere Papiertextur für bessere Abhebung vom WordPress-Adminhintergrund."
+
+msgid "Data"
+msgstr "Daten"
+
+msgid "Delete this website’s QuickNav settings when uninstalling"
+msgstr "QuickNav-Einstellungen dieser Website bei der Deinstallation löschen"
+
+msgid "Detected"
+msgstr "Erkannt"
+
+msgid "Enable navigation for selected ACF add-ons. This does not activate or configure the add-ons. Off by default."
+msgstr "Navigation für ausgewählte ACF-Add-ons einschalten. Dies aktiviert oder konfiguriert die Add-ons selbst nicht. Standardmäßig ausgeschaltet."
+
+msgid "Enable separate navigation to custom post type content lists"
+msgstr "Separate Navigation zu Inhaltslisten eigener Inhaltstypen aktivieren"
+
+msgid "Enter exact WordPress usernames, one per line or separated by commas. These exclusions also apply when none of the user’s roles are selected above. Leave empty to remove user exclusions."
+msgstr "Die genauen WordPress-Benutzernamen eingeben, einen pro Zeile oder durch Kommas getrennt. Diese Sperren gelten auch, wenn keine der Rollen des Benutzers oben ausgewählt ist. Leer lassen, um die Benutzersperren aufzuheben."
+
+msgid "Excluded roles"
+msgstr "Gesperrte Rollen"
+
+msgid "Excluded users"
+msgstr "Gesperrte Benutzer"
+
+msgid "Export / Import"
+msgstr "Export / Import"
+
+msgid "Extends: %s"
+msgstr "Erweitert: %s"
+
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+msgid "Extensions for ACF"
+msgstr "Erweiterungen für ACF"
+
+msgid "Field groups"
+msgstr "Feldgruppen"
+
+msgid "Fixed:"
+msgstr "Behoben:"
+
+msgid "Forms"
+msgstr "Formulare"
+
+msgid "Forms Commerce settings"
+msgstr "Forms-Commerce-Einstellungen"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
+
+msgid "Hide QuickNav for roles and users"
+msgstr "QuickNav für Rollen und Benutzer ausblenden"
+
+msgid "Hide content list: %s"
+msgstr "Inhaltsliste ausblenden: %s"
+
+msgid "Improved:"
+msgstr "Verbessert:"
+
+msgid "Invalid GitHub repository URL."
+msgstr "Ungültige GitHub-Repository-URL."
+
+msgid "Invalid authentication provider."
+msgstr "Ungültiger Authentifizierungsanbieter."
+
+msgid "JetEngine detection and taxonomy navigation, and ACPT Pro administration links."
+msgstr "JetEngine-Erkennung und Taxonomie-Navigation sowie ACPT-Pro-Verwaltungslinks."
+
+msgid "Layouts"
+msgstr "Layouts"
+
+msgid "Layouts CSS and JS"
+msgstr "Layouts CSS und JS"
+
+msgid "Layouts migration"
+msgstr "Layouts-Migration"
+
+msgid "License settings"
+msgstr "Lizenz-Einstellungen"
+
+msgid "Manage Pods and fields"
+msgstr "Pods und Felder verwalten"
+
+msgid "Manage options pages"
+msgstr "Optionsseiten verwalten"
+
+msgid "Manage post types"
+msgstr "Inhaltstypen verwalten"
+
+msgid "Manage post types and fields"
+msgstr "Inhaltstypen und Felder verwalten"
+
+msgid "Manage taxonomies"
+msgstr "Taxonomien verwalten"
+
+msgid "Maps settings"
+msgstr "Karten-Einstellungen"
+
+msgid "Menu-based provider destinations are shown in the administration area only. Frontend navigation includes verified definition post types and optional content lists."
+msgstr "Provider-Ziele aus registrierten Admin-Menüs erscheinen nur im Verwaltungsbereich. Im Frontend stehen geprüfte Definitions-Inhaltstypen und optionale Inhaltslisten zur Verfügung."
+
+msgid "Meta Box Template configuration navigation alongside standalone Builder and Views support."
+msgstr "Navigation zur Meta-Box-Template-Konfiguration neben der Unterstützung für einzeln installierte Builder- und Views-Pakete."
+
+msgid "Models"
+msgstr "Modelle"
+
+msgid "Module manager"
+msgstr "Modulverwaltung"
+
+msgid "Navigation available"
+msgstr "Navigation verfügbar"
+
+msgid "Navigation for Secure Custom Fields and available Meta Box administration pages."
+msgstr "Navigation für Secure Custom Fields und verfügbare Meta-Box-Verwaltungsseiten."
+
+msgid "Navigation options"
+msgstr "Menüpunkte"
+
+msgid "New:"
+msgstr "Neu:"
+
+msgid "No accessible navigation targets. Check the required provider, enabled modules and permissions."
+msgstr "Keine zugänglichen Navigationsziele. Voraussetzung sind der passende Provider, aktivierte Module und ausreichende Berechtigungen."
+
+msgid "No supported provider is currently active. Settings remain available."
+msgstr "Derzeit ist kein unterstützter Provider aktiv. Die Einstellungen bleiben verfügbar."
+
+msgid "Not detected"
+msgstr "Nicht erkannt"
+
+msgid "Off by default. Provider data and content are never deleted. Shared Library data follow the Library’s own settings."
+msgstr "Standardmäßig ausgeschaltet. Provider-Daten und Inhalte werden niemals gelöscht. Für gemeinsame Library-Daten gelten die eigenen Library-Einstellungen."
+
+msgid "Off by default. These links open content lists, not type definitions."
+msgstr "Standardmäßig ausgeschaltet. Diese Links öffnen Inhaltslisten, keine Inhaltstyp-Definitionen."
+
+msgid "Only available destinations with sufficient permissions appear in the toolbar. Settings apply to this website."
+msgstr "In der Toolbar erscheinen nur verfügbare Ziele mit ausreichender Berechtigung. Die Einstellungen gelten für diese Website."
+
+msgid "Optional navigation for ACF Extended, ACF: Better Search and ACF Font Awesome Field; add-on links are off by default."
+msgstr "Optionale Navigation für ACF Extended, ACF: Better Search und ACF Font Awesome Field; Add-on-Links sind standardmäßig ausgeschaltet."
+
+msgid "Post forms"
+msgstr "Beitragsformulare"
+
+msgid "Preserve the native ACF parent URL for add-on settings and keep ACF Extended definitions out of content lists."
+msgstr "Native ACF-Eltern-URL für Add-on-Einstellungen erhalten und ACF-Extended-Definitionen aus Inhaltslisten ausschließen."
+
+msgid "Private mode must be boolean."
+msgstr "Der Private-Modus muss ein boolescher Wert sein."
+
+msgid "Provider settings"
+msgstr "Provider-Einstellungen"
+
+msgid "Providers and navigation"
+msgstr "Provider und Navigation"
+
+msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
+msgstr "QUICKNAV-Serienbadge in den deutschen und englischen Bannern; das Icon bleibt unverändert."
+
+msgid "Quick toolbar access to available content type and custom field administration."
+msgstr "Schneller Toolbar-Zugriff auf verfügbare Verwaltungsbereiche für Inhaltstypen und individuelle Felder."
+
+msgid "QuickNav Settings"
+msgstr "QuickNav Einstellungen"
+
+msgid "Relationship forms"
+msgstr "Beziehungsformulare"
+
+msgid "Relationships"
+msgstr "Beziehungen"
+
+msgid "See the release on GitHub."
+msgstr "Sehen Sie sich den Release auf GitHub an."
+
+msgid "Selected ACF add-on navigation, separate optional content lists and an optional frontend toolbar."
+msgstr "Navigation für ausgewählte ACF-Add-ons, getrennte optionale Inhaltslisten und eine optionale Frontend-Toolbar."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings and modules"
+msgstr "Einstellungen und Module"
+
+msgid "Settings section links jump directly to providers, add-ons and general preferences; general settings now have their own heading and divider."
+msgstr "Sprunglinks führen direkt zu Providern, Add-ons und allgemeinen Einstellungen; die allgemeinen Einstellungen haben eine eigene Überschrift und Trennlinie."
+
+msgid "Settings sections"
+msgstr "Einstellungsbereiche"
+
+msgid "Short paths to your types and fields."
+msgstr "Kurze Wege zu Ihren Inhaltstypen und Feldern."
+
+msgid "Show in the toolbar"
+msgstr "In der Toolbar anzeigen"
+
+msgid "Show this provider"
+msgstr "Diesen Provider anzeigen"
+
+msgid "Show this provider in the toolbar"
+msgstr "Diesen Provider in der Toolbar anzeigen"
+
+msgid "Some usernames were not found on this website. The previous user exclusions have been kept."
+msgstr "Einige Benutzernamen wurden auf dieser Website nicht gefunden. Die bisherigen Benutzersperren bleiben erhalten."
+
+msgid "Template configuration"
+msgstr "Template-Konfiguration"
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr "Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
+
+msgid "The plugin settings link in the toolbar is now labelled QuickNav Settings."
+msgstr "Der Link zu den Plugin-Einstellungen in der Toolbar heißt jetzt QuickNav Einstellungen."
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr "Das private Update konnte nicht autorisiert werden. Prüfen Sie die Repository-Zugangsdaten und suchen Sie erneut nach Updates."
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr "Der Download des privaten Updates ist fehlgeschlagen. Prüfen Sie die Zugangsdaten und versuchen Sie es erneut."
+
+msgid "The update package does not match this plugin or its platform requirements."
+msgstr "Das Update-Paket passt nicht zu diesem Plugin oder seinen Systemvoraussetzungen."
+
+msgid "This plugin requires a newer deckerweb Updater integration."
+msgstr "Dieses Plugin benötigt eine neuere deckerweb-Updater-Integration."
+
+msgid "Toolbar display"
+msgstr "Toolbar-Anzeige"
+
+msgid "Toolbar links follow the switch above and the provider switch."
+msgstr "Die Toolbar-Links berücksichtigen den Schalter oben und den Provider-Schalter."
+
+msgid "Tools"
+msgstr "Werkzeuge"
+
+msgid "Toolset migration"
+msgstr "Toolset-Migration"
+
+msgid "Types & Fields"
+msgstr "Inhaltstypen & Felder"
+
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
+
+msgid "Unavailable or not permitted"
+msgstr "Nicht verfügbar oder nicht berechtigt"
+
+msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
+msgstr "Nicht verfügbar: Das benötigte Modul oder die Verwaltungsseite fehlt, oder die Berechtigung reicht nicht aus. Gespeicherte Einstellungen bleiben erhalten."
+
+msgid "User forms"
+msgstr "Benutzerformulare"
+
+msgid "Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu."
+msgstr "Bei Benutzern mit mehreren Rollen genügt eine passende Rolle. Administratoren sind nicht ausgenommen. Berechtigte Administratoren können diese Seite weiterhin über das WordPress-Menü Einstellungen öffnen."
+
+msgid "Views"
+msgstr "Views"
+
+msgid "Website-specific provider switches, role and user exclusions, accessible settings cards and local release history."
+msgstr "Provider-Schalter je Website, Rollen- und Benutzersperren, zugängliche Einstellungskarten und lokaler Änderungsverlauf."
+
+msgid "Website-specific role and user exclusions hide the complete QuickNav toolbar entry in the administration area and frontend."
+msgstr "Sperren für Rollen und einzelne Benutzer blenden den gesamten QuickNav-Toolbar-Eintrag im Verwaltungsbereich und Frontend für diese Website aus."
+
+msgid "WooCommerce Blocks settings"
+msgstr "WooCommerce-Blocks-Einstellungen"
+
+msgid "WordPress archives"
+msgstr "WordPress-Archive"
+
+msgid "You do not have permission to manage these settings."
+msgstr "Sie haben keine Berechtigung, diese Einstellungen zu verwalten."

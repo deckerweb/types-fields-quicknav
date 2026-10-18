@@ -1,0 +1,344 @@
+msgid ""
+msgstr ""
+
+msgid "A matching role or username hides the entire Types & Fields QuickNav toolbar entry, including its settings link, in the administration area and frontend. These exclusions apply to this website only."
+msgstr ""
+
+msgid "ACF add-ons"
+msgstr ""
+
+msgid "ACF migration"
+msgstr ""
+
+msgid "Access control"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add-on activity and QuickNav visibility are separate. These switches only control toolbar links; they do not activate or configure the add-ons."
+msgstr ""
+
+msgid "Add-ons"
+msgstr ""
+
+msgid "Also show navigation in the frontend toolbar"
+msgstr ""
+
+msgid "Block types"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Clearly separated provider cards in a consistent order, readable availability badges and a dedicated add-on section showing activity, provider requirements and toolbar visibility."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Configurable provider navigation, website settings and optional content lists."
+msgstr ""
+
+msgid "Configurable toolbar navigation for ACF, Meta Box, JetEngine, ACPT and Pods, with additional Toolset and Secure Custom Fields support."
+msgstr ""
+
+msgid "Consistent plugin artwork in settings and documentation."
+msgstr ""
+
+msgid "Content lists"
+msgstr ""
+
+msgid "Content templates"
+msgstr ""
+
+msgid "Could not access the update filesystem."
+msgstr ""
+
+msgid "Could not create the update download file."
+msgstr ""
+
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+msgid "Darker warm artwork backgrounds and a slightly more visible paper texture for better separation from the WordPress admin background."
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Delete this website’s QuickNav settings when uninstalling"
+msgstr ""
+
+msgid "Detected"
+msgstr ""
+
+msgid "Enable navigation for selected ACF add-ons. This does not activate or configure the add-ons. Off by default."
+msgstr ""
+
+msgid "Enable separate navigation to custom post type content lists"
+msgstr ""
+
+msgid "Enter exact WordPress usernames, one per line or separated by commas. These exclusions also apply when none of the user’s roles are selected above. Leave empty to remove user exclusions."
+msgstr ""
+
+msgid "Excluded roles"
+msgstr ""
+
+msgid "Excluded users"
+msgstr ""
+
+msgid "Export / Import"
+msgstr ""
+
+msgid "Extends: %s"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Extensions for ACF"
+msgstr ""
+
+msgid "Field groups"
+msgstr ""
+
+msgid "Fixed:"
+msgstr ""
+
+msgid "Forms"
+msgstr ""
+
+msgid "Forms Commerce settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+msgid "Hide QuickNav for roles and users"
+msgstr ""
+
+msgid "Hide content list: %s"
+msgstr ""
+
+msgid "Improved:"
+msgstr ""
+
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid authentication provider."
+msgstr ""
+
+msgid "JetEngine detection and taxonomy navigation, and ACPT Pro administration links."
+msgstr ""
+
+msgid "Layouts"
+msgstr ""
+
+msgid "Layouts CSS and JS"
+msgstr ""
+
+msgid "Layouts migration"
+msgstr ""
+
+msgid "License settings"
+msgstr ""
+
+msgid "Manage Pods and fields"
+msgstr ""
+
+msgid "Manage options pages"
+msgstr ""
+
+msgid "Manage post types"
+msgstr ""
+
+msgid "Manage post types and fields"
+msgstr ""
+
+msgid "Manage taxonomies"
+msgstr ""
+
+msgid "Maps settings"
+msgstr ""
+
+msgid "Menu-based provider destinations are shown in the administration area only. Frontend navigation includes verified definition post types and optional content lists."
+msgstr ""
+
+msgid "Meta Box Template configuration navigation alongside standalone Builder and Views support."
+msgstr ""
+
+msgid "Models"
+msgstr ""
+
+msgid "Module manager"
+msgstr ""
+
+msgid "Navigation available"
+msgstr ""
+
+msgid "Navigation for Secure Custom Fields and available Meta Box administration pages."
+msgstr ""
+
+msgid "Navigation options"
+msgstr ""
+
+msgid "New:"
+msgstr ""
+
+msgid "No accessible navigation targets. Check the required provider, enabled modules and permissions."
+msgstr ""
+
+msgid "No supported provider is currently active. Settings remain available."
+msgstr ""
+
+msgid "Not detected"
+msgstr ""
+
+msgid "Off by default. Provider data and content are never deleted. Shared Library data follow the Library’s own settings."
+msgstr ""
+
+msgid "Off by default. These links open content lists, not type definitions."
+msgstr ""
+
+msgid "Only available destinations with sufficient permissions appear in the toolbar. Settings apply to this website."
+msgstr ""
+
+msgid "Optional navigation for ACF Extended, ACF: Better Search and ACF Font Awesome Field; add-on links are off by default."
+msgstr ""
+
+msgid "Post forms"
+msgstr ""
+
+msgid "Preserve the native ACF parent URL for add-on settings and keep ACF Extended definitions out of content lists."
+msgstr ""
+
+msgid "Private mode must be boolean."
+msgstr ""
+
+msgid "Provider settings"
+msgstr ""
+
+msgid "Providers and navigation"
+msgstr ""
+
+msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
+msgstr ""
+
+msgid "Quick toolbar access to available content type and custom field administration."
+msgstr ""
+
+msgid "QuickNav Settings"
+msgstr ""
+
+msgid "Relationship forms"
+msgstr ""
+
+msgid "Relationships"
+msgstr ""
+
+msgid "See the release on GitHub."
+msgstr ""
+
+msgid "Selected ACF add-on navigation, separate optional content lists and an optional frontend toolbar."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings and modules"
+msgstr ""
+
+msgid "Settings section links jump directly to providers, add-ons and general preferences; general settings now have their own heading and divider."
+msgstr ""
+
+msgid "Settings sections"
+msgstr ""
+
+msgid "Short paths to your types and fields."
+msgstr ""
+
+msgid "Show in the toolbar"
+msgstr ""
+
+msgid "Show this provider"
+msgstr ""
+
+msgid "Show this provider in the toolbar"
+msgstr ""
+
+msgid "Some usernames were not found on this website. The previous user exclusions have been kept."
+msgstr ""
+
+msgid "Template configuration"
+msgstr ""
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+msgid "The plugin settings link in the toolbar is now labelled QuickNav Settings."
+msgstr ""
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr ""
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid "The update package does not match this plugin or its platform requirements."
+msgstr ""
+
+msgid "This plugin requires a newer deckerweb Updater integration."
+msgstr ""
+
+msgid "Toolbar display"
+msgstr ""
+
+msgid "Toolbar links follow the switch above and the provider switch."
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Toolset migration"
+msgstr ""
+
+msgid "Types & Fields"
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unavailable or not permitted"
+msgstr ""
+
+msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
+msgstr ""
+
+msgid "User forms"
+msgstr ""
+
+msgid "Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu."
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+msgid "Website-specific provider switches, role and user exclusions, accessible settings cards and local release history."
+msgstr ""
+
+msgid "Website-specific role and user exclusions hide the complete QuickNav toolbar entry in the administration area and frontend."
+msgstr ""
+
+msgid "WooCommerce Blocks settings"
+msgstr ""
+
+msgid "WordPress archives"
+msgstr ""
+
+msgid "You do not have permission to manage these settings."
+msgstr ""

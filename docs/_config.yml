@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: Types & Fields QuickNav
+description: Short paths to your types and fields. / Kurze Wege zu deinen Inhaltstypen und Feldern.
+show_downloads: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
