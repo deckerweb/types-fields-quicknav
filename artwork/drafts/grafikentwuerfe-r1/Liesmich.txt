@@ -1,0 +1,16 @@
+Types & Fields QuickNav – Grafikentwürfe R1
+
+A: Schaltzentrale – dunkles Petrol, mintfarbener direkter Navigationspfeil.
+B: Direkter Zugriff – warmes Hell, geordnete Karten, Korallakzent.
+C: Verbindungen – Indigo, verzweigte Struktur, Türkis.
+
+Alle SVGs sind native Vektoren: Formen, Pfade und bei A/C Verläufe.
+Schrift Inter (SIL OFL 1.1) als Pfade; keine Rastereinbettungen, externen Schriften oder Ressourcen.
+Banner EN/DE 1280 × 640; Vorschauen als direkte proportionale WP-Zuschnitte.
+Icons sind erste Motiventwürfe, keine finale Freigabe.
+Nach Motivauswahl folgt der endgültige Satz in allen spezifizierten Größen.
+Keine GitHub-Veröffentlichung oder Änderung am Plugin-Test-ZIP.
+
+Formatprüfung: https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/
+Allgemeine DECKERWEB-Specs 1.9 / GitHub 1.5 unverändert.
+Master nativ vektorbasiert; PNG-Vorschauen aus 2560 × 1280 px gerendert, keine Hochskalierung kleiner PNGs.
