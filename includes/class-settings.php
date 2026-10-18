@@ -204,7 +204,7 @@ final class Settings {
 	 * @return void Prints role choices and an explicit username list.
 	 */
 	private static function exclusions( array $options ): void {
-		echo '<fieldset class="dtfq-exclusions"><legend><h3>' . esc_html__( 'Hide QuickNav for roles and users', 'types-fields-quicknav' ) . '</h3></legend><p>' . esc_html__( 'A matching role or username hides the entire Types & Fields QuickNav toolbar entry, including its settings link, in the administration area and frontend. These exclusions apply to this website only.', 'types-fields-quicknav' ) . '</p><p class="description">' . esc_html__( 'Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu.', 'types-fields-quicknav' ) . '</p><h4>' . esc_html__( 'Excluded roles', 'types-fields-quicknav' ) . '</h4><div class="dtfq-role-choices">';
+		echo '<div class="dtfq-exclusions"><fieldset><legend><h3>' . esc_html__( 'Hide QuickNav for roles and users', 'types-fields-quicknav' ) . '</h3></legend><p>' . esc_html__( 'A matching role or username hides the entire Types & Fields QuickNav toolbar entry, including its settings link, in the administration area and frontend. These exclusions apply to this website only.', 'types-fields-quicknav' ) . '</p><p class="description">' . esc_html__( 'Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu.', 'types-fields-quicknav' ) . '</p><h4>' . esc_html__( 'Excluded roles', 'types-fields-quicknav' ) . '</h4><div class="dtfq-role-choices">';
 		foreach ( wp_roles()->roles as $slug => $role ) {
 			echo '<p>';
 			self::checkbox( '[blocked_roles][]', in_array( $slug, $options['blocked_roles'], true ), translate_user_role( $role['name'] ), $slug );
@@ -217,7 +217,7 @@ final class Settings {
 				$names[] = $user->user_login;
 			}
 		}
-		echo '</div><h4><label for="dtfq-blocked-user-logins">' . esc_html__( 'Excluded users', 'types-fields-quicknav' ) . '</label></h4><textarea id="dtfq-blocked-user-logins" name="dtfq_settings[blocked_user_logins]" rows="4" class="large-text" aria-describedby="dtfq-blocked-users-help">' . esc_textarea( implode( "\n", $names ) ) . '</textarea><p class="description" id="dtfq-blocked-users-help">' . esc_html__( 'Enter exact WordPress usernames, one per line or separated by commas. These exclusions also apply when none of the user’s roles are selected above. Leave empty to remove user exclusions.', 'types-fields-quicknav' ) . '</p></fieldset>';
+		echo '</div><h4><label for="dtfq-blocked-user-logins">' . esc_html__( 'Excluded users', 'types-fields-quicknav' ) . '</label></h4><textarea id="dtfq-blocked-user-logins" name="dtfq_settings[blocked_user_logins]" rows="4" class="large-text" aria-describedby="dtfq-blocked-users-help">' . esc_textarea( implode( "\n", $names ) ) . '</textarea><p class="description" id="dtfq-blocked-users-help">' . esc_html__( 'Enter exact WordPress usernames, one per line or separated by commas. These exclusions also apply when none of the user’s roles are selected above. Leave empty to remove user exclusions.', 'types-fields-quicknav' ) . '</p></fieldset></div>';
 	}
 
 	/** @return void Renders the authorized settings form and local changelog; no provider data is changed. */
