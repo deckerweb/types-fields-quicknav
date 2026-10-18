@@ -134,4 +134,6 @@ Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later.
 
 Bundled: deckerweb Library 1.0.0 ([source](https://github.com/deckerweb/deckerweb-plugin-library)) and deckerweb Updater 2.1.0, David Decker – DECKERWEB, GPL-2.0-or-later. No provider source code is included.
 
+Footer presentation adapted from deckerweb Admin Footer v1 in [Multisite Toolbar Additions](https://github.com/deckerweb/multisite-toolbar-additions), David Decker – DECKERWEB, GPL-2.0-or-later. / Footer-Gestaltung auf Grundlage derselben Komponente.
+
 Inter lettering is outlined in the artwork / Inter-Schrift als Pfade in den Grafiken: SIL OFL 1.1. [License / Lizenz](assets/brand/Inter-OFL-1.1.txt).

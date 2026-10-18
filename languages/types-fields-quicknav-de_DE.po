@@ -10,6 +10,9 @@ msgstr "ACF-Add-ons"
 msgid "ACF migration"
 msgstr "ACF-Migration"
 
+msgid "About"
+msgstr "Über das Plugin"
+
 msgid "Access control"
 msgstr "Zugriffssteuerung"
 
@@ -72,6 +75,9 @@ msgstr "QuickNav-Einstellungen dieser Website bei der Deinstallation löschen"
 
 msgid "Detected"
 msgstr "Erkannt"
+
+msgid "Documentation"
+msgstr "Dokumentation"
 
 msgid "Enable navigation for selected ACF add-ons. This does not activate or configure the add-ons. Off by default."
 msgstr "Navigation für ausgewählte ACF-Add-ons einschalten. Dies aktiviert oder konfiguriert die Add-ons selbst nicht. Standardmäßig ausgeschaltet."
@@ -171,6 +177,9 @@ msgstr "Provider-Ziele aus registrierten Admin-Menüs erscheinen nur im Verwaltu
 
 msgid "Meta Box Template configuration navigation alongside standalone Builder and Views support."
 msgstr "Navigation zur Meta-Box-Template-Konfiguration neben der Unterstützung für einzeln installierte Builder- und Views-Pakete."
+
+msgid "Misc:"
+msgstr "Sonstiges:"
 
 msgid "Models"
 msgstr "Modelle"
@@ -325,8 +334,14 @@ msgstr "Benutzerformulare"
 msgid "Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu."
 msgstr "Bei Benutzern mit mehreren Rollen genügt eine passende Rolle. Administratoren sind nicht ausgenommen. Berechtigte Administratoren können diese Seite weiterhin über das WordPress-Menü Einstellungen öffnen."
 
+msgid "Version"
+msgstr "Version"
+
 msgid "Views"
 msgstr "Views"
+
+msgid "Website"
+msgstr "Website"
 
 msgid "Website-specific provider switches, role and user exclusions, accessible settings cards and local release history."
 msgstr "Provider-Schalter je Website, Rollen- und Benutzersperren, zugängliche Einstellungskarten und lokaler Änderungsverlauf."

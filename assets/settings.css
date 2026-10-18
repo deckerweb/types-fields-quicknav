@@ -29,9 +29,6 @@
 .dtfq-addon { padding: 20px; }
 .dtfq-addon-availability { margin-top: 18px; border-top: 1px solid #e2e4e7; padding-top: 14px; }
 .dtfq-addon-availability p { margin-bottom: 0; }
-.dtfq-settings dialog { max-width: 640px; border: 1px solid #646970; border-radius: 8px; padding: 24px; }
-.dtfq-settings dialog:not([open]), .dtfq-settings dialog[hidden] { display: none !important; }
-.dtfq-settings dialog::backdrop { background: rgba(0,0,0,.45); }
 @media (max-width: 960px) { .dtfq-addon-list { grid-template-columns: 1fr; } }
 @media (max-width: 600px) {
  .dtfq-card { padding: 16px; }
@@ -50,3 +47,38 @@
 .dtfq-exclusions legend { padding: 0; }
 .dtfq-role-choices { display: flex; flex-wrap: wrap; gap: 0 24px; }
 .dtfq-exclusions textarea { max-width: 640px; }
+
+/* Footer presentation follows the deckerweb Admin Footer v1 convention.
+ * Copyright 2026 David Decker – DECKERWEB. GPL-2.0-or-later. */
+.dtfq-footer { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:16px 28px; margin:32px 0 16px; padding:20px 0; border-top:1px solid #ccd5d9; color:#52626d; font-size:13px; line-height:1.6; }
+.dtfq-footer strong { color:#245c73; margin-inline-end:8px; }
+.dtfq-footer p { font-size:13px; margin:4px 0 0; }
+.dtfq-footer nav { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:4px; }
+.dtfq-footer > div:last-child { display:flex; flex-wrap:wrap; gap:8px 20px; }
+.dtfq-footer a { color:#245c73; text-underline-offset:3px; }
+.dtfq-footer a:focus-visible { outline:2px solid #245c73; outline-offset:3px; }
+.dtfq-settings dialog.dtfq-document-dialog { box-sizing:border-box; width:min(880px,calc(100% - 32px)); max-width:880px; max-height:85vh; padding:0; border:1px solid #dcdcde; border-radius:12px; background:#fff; color:#1d2327; box-shadow:0 20px 80px #0004; }
+.dtfq-document-dialog::backdrop { background:#0006; }
+.dtfq-document-header { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:16px 24px; border-bottom:1px solid #dcdcde; }
+.dtfq-document-header h2 { margin:0; font-size:20px; }
+.dtfq-document-header form { margin:0; padding:0; border:0; background:none; }
+.dtfq-document-content { box-sizing:border-box; max-height:calc(85vh - 90px); overflow:auto; overflow-wrap:anywhere; padding:24px; font:14px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.dtfq-changelog-release + .dtfq-changelog-release { border-top:1px solid #dcdcde; padding-top:20px; margin-top:24px; }
+.dtfq-changelog-version { display:flex; flex-wrap:wrap; align-items:center; gap:12px; }
+.dtfq-changelog-version h3 { margin:0; font-size:18px; }
+.dtfq-changelog-version time { color:#52626d; }
+.dtfq-settings .dtfq-changelog-entries { list-style:none; padding:0; }
+.dtfq-changelog-entries li { display:flex; align-items:baseline; gap:10px; margin:12px 0; }
+.dtfq-changelog-badge { flex:none; min-width:76px; padding:2px 8px; border-radius:4px; font-size:12px; font-weight:600; color:#1d2327; background:#edf0f2; }
+.dtfq-changelog-new { background:#e4f3e8; color:#1c5930; }
+.dtfq-changelog-improved { background:#e5edf9; color:#21466d; }
+.dtfq-changelog-fixed { background:#fff1dc; color:#6a470c; }
+.dtfq-changelog-misc { background:#eeebf5; color:#4b386b; }
+.dtfq-settings dialog.dtfq-document-dialog:not([open]), .dtfq-settings dialog.dtfq-document-dialog[hidden] { display:none!important; }
+@media(max-width:600px) {
+ .dtfq-footer { display:block; }
+ .dtfq-footer > div:last-child { margin-top:12px; }
+ .dtfq-document-header, .dtfq-document-content { padding:16px; }
+ .dtfq-changelog-entries li { display:block; }
+ .dtfq-changelog-badge { display:inline-block; margin-inline-end:8px; }
+}

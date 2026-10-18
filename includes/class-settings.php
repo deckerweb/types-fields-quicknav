@@ -106,8 +106,8 @@ final class Settings {
 		if ( 'settings_page_types-fields-quicknav' !== $hook ) {
 			return;
 		}
-		wp_enqueue_style( 'dtfq-settings', plugins_url( 'assets/settings.css', DTFQ_FILE ), [], DTFQ_VERSION );
-		wp_enqueue_script( 'dtfq-dialog', plugins_url( 'assets/dialog.js', DTFQ_FILE ), [], DTFQ_VERSION, true );
+		wp_enqueue_style( 'dtfq-settings', plugins_url( 'assets/settings.css', DTFQ_FILE ), [], DTFQ_VERSION . '.' . filemtime( __DIR__ . '/../assets/settings.css' ) );
+		wp_enqueue_script( 'dtfq-dialog', plugins_url( 'assets/dialog.js', DTFQ_FILE ), [], DTFQ_VERSION . '.' . filemtime( __DIR__ . '/../assets/dialog.js' ), true );
 	}
 	/**
 	 * Prepend the settings action only in its website context for authorized users.
@@ -248,16 +248,9 @@ echo '<nav class="dtfq-jump-links" aria-label="' . esc_attr__( 'Settings section
 		echo '</p><p class="description">' . esc_html__( 'Off by default. Provider data and content are never deleted. Shared Library data follow the Library’s own settings.', 'types-fields-quicknav' ) . '</p>';
 		echo '</section>';
 		submit_button();
-		echo '</form><hr><footer><p>Types &amp; Fields QuickNav ' . esc_html( DTFQ_VERSION ) . ' · <a href="https://github.com/deckerweb">David Decker – DECKERWEB</a> · <a href="' . esc_url( plugins_url( 'CHANGELOG.md', DTFQ_FILE ) ) . '" data-dtfq-dialog="dtfq-history">' . esc_html__( 'Changelog', 'types-fields-quicknav' ) . '</a></p></footer>';
-		echo '<dialog id="dtfq-history" hidden aria-labelledby="dtfq-history-title"><h2 id="dtfq-history-title">' . esc_html__( 'Changelog', 'types-fields-quicknav' ) . '</h2>';
-		$history = require __DIR__ . '/history.php';
-		$category_labels = [ 'new' => __( 'New:', 'types-fields-quicknav' ), 'improved' => __( 'Improved:', 'types-fields-quicknav' ), 'fixed' => __( 'Fixed:', 'types-fields-quicknav' ) ];
-		foreach ( $history as $release ) {
-			echo '<h3>' . esc_html( $release['version'] . ' · ' . $release['date'] ) . '</h3>';
-			foreach ( $release['entries'] as $entry ) {
-				echo '<p><strong>' . esc_html( $category_labels[ $entry['category'] ] ) . '</strong></p><ul><li>' . esc_html( translate( $entry['text'], 'types-fields-quicknav' ) ) . '</li></ul>';
-			}
-		}
-		echo '<form method="dialog"><button class="button">' . esc_html__( 'Close', 'types-fields-quicknav' ) . '</button></form></dialog></div>';
+		echo '</form>';
+		require_once __DIR__ . '/class-footer.php';
+		Footer::render();
+		echo '</div>';
 	}
 }

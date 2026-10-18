@@ -10,6 +10,9 @@ msgstr ""
 msgid "ACF migration"
 msgstr ""
 
+msgid "About"
+msgstr ""
+
 msgid "Access control"
 msgstr ""
 
@@ -71,6 +74,9 @@ msgid "Delete this website’s QuickNav settings when uninstalling"
 msgstr ""
 
 msgid "Detected"
+msgstr ""
+
+msgid "Documentation"
 msgstr ""
 
 msgid "Enable navigation for selected ACF add-ons. This does not activate or configure the add-ons. Off by default."
@@ -170,6 +176,9 @@ msgid "Menu-based provider destinations are shown in the administration area onl
 msgstr ""
 
 msgid "Meta Box Template configuration navigation alongside standalone Builder and Views support."
+msgstr ""
+
+msgid "Misc:"
 msgstr ""
 
 msgid "Models"
@@ -325,7 +334,13 @@ msgstr ""
 msgid "Users with several roles are excluded if any role matches. Administrators are not exempt. Authorized administrators can still open this settings page from the WordPress Settings menu."
 msgstr ""
 
+msgid "Version"
+msgstr ""
+
 msgid "Views"
+msgstr ""
+
+msgid "Website"
 msgstr ""
 
 msgid "Website-specific provider switches, role and user exclusions, accessible settings cards and local release history."
