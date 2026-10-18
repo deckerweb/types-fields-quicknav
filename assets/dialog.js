@@ -15,6 +15,7 @@
         dialog.removeAttribute('open');
         dialog.hidden = true;
         const opener = openers.get(dialog);
+        openers.delete(dialog);
         if (opener?.isConnected) opener.focus({preventScroll: true});
     };
     document.addEventListener('click', event => {
@@ -61,6 +62,7 @@
         if (!owned(event.target) || event.target.open) return;
         event.target.hidden = true;
         const opener = openers.get(event.target);
+        openers.delete(event.target);
         if (opener?.isConnected) opener.focus({preventScroll: true});
     }, true);
 })();
