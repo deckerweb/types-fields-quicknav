@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Types & Fields QuickNav 1.0.0\nContent-Type: text/plain; charset=UTF-8\nLanguage: de_DE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+msgstr "Project-Id-Version: Types & Fields QuickNav 1.0.1\nContent-Type: text/plain; charset=UTF-8\nLanguage: de_DE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "A matching role or username hides the entire Types & Fields QuickNav toolbar entry, including its settings link, in the administration area and frontend. These exclusions apply to this website only."
 msgstr "Eine passende Rolle oder ein gesperrter Benutzername blendet den gesamten Toolbar-Eintrag von Types & Fields QuickNav einschließlich seines Einstellungslinks im Verwaltungsbereich und Frontend aus. Diese Sperren gelten nur für diese Website."
@@ -82,6 +82,9 @@ msgstr "Erkannt"
 msgid "Detected providers"
 msgstr "Erkannte Provider"
 
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -130,6 +133,9 @@ msgstr "Frontend-Toolbar-Navigation eingeschaltet"
 msgid "General"
 msgstr "Allgemein"
 
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr "Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update fehlschlägt, deaktiviere Git Updater vorübergehend und versuche es erneut. Aktiviere ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. Lass ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen zuverlässigen Updateweg besitzen."
+
 msgid "GitHub release does not contain the plugin main file."
 msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
 
@@ -165,6 +171,9 @@ msgstr "Lizenz-Einstellungen"
 
 msgid "Manage Pods and fields"
 msgstr "Pods und Felder verwalten"
+
+msgid "Manage installed plugins"
+msgstr "Installierte Plugins verwalten"
 
 msgid "Manage options pages"
 msgstr "Optionsseiten verwalten"
@@ -235,6 +244,9 @@ msgstr "In der Toolbar erscheinen nur verfügbare Ziele mit ausreichender Berech
 msgid "Optional navigation for ACF Extended, ACF: Better Search and ACF Font Awesome Field; add-on links are off by default."
 msgstr "Optionale Navigation für ACF Extended, ACF: Better Search und ACF Font Awesome Field; Add-on-Links sind standardmäßig ausgeschaltet."
 
+msgid "Permission denied."
+msgstr "Zugriff verweigert."
+
 msgid "Post forms"
 msgstr "Beitragsformulare"
 
@@ -252,6 +264,9 @@ msgstr "Provider und Navigation"
 
 msgid "Providers enabled in QuickNav"
 msgstr "In QuickNav eingeschaltete Provider"
+
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr "Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im Private-Modus verwendet werden."
 
 msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
 msgstr "QUICKNAV-Serienbadge in den deutschen und englischen Bannern; das Icon bleibt unverändert."
@@ -310,8 +325,17 @@ msgstr "Diesen Provider in der Toolbar anzeigen"
 msgid "Some usernames were not found on this website. The previous user exclusions have been kept."
 msgstr "Einige Benutzernamen wurden auf dieser Website nicht gefunden. Die bisherigen Benutzersperren bleiben erhalten."
 
+msgid "Strengthened update package validation and refined administration output."
+msgstr "Prüfung von Updatepaketen verstärkt und Verwaltungsausgabe verbessert."
+
 msgid "Template configuration"
 msgstr "Template-Konfiguration"
+
+msgid "The approved release changed. Refresh updates first."
+msgstr "Die freigegebene Version hat sich geändert. Suche zuerst erneut nach Updates."
+
+msgid "The approved release could not be verified."
+msgstr "Die freigegebene Version konnte nicht geprüft werden."
 
 msgid "The plugin must be installed in a stable slug directory."
 msgstr "Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
@@ -324,6 +348,9 @@ msgstr "Das private Update konnte nicht autorisiert werden. Prüfe die Repositor
 
 msgid "The private update download failed. Check credentials and try again."
 msgstr "Der Download des privaten Updates ist fehlgeschlagen. Prüfe die Zugangsdaten und versuche es erneut."
+
+msgid "The update package does not match Types & Fields QuickNav or its requirements."
+msgstr "Das Updatepaket passt nicht zu Types & Fields QuickNav oder seinen Voraussetzungen."
 
 msgid "The update package does not match this plugin or its platform requirements."
 msgstr "Das Update-Paket passt nicht zu diesem Plugin oder seinen Systemvoraussetzungen."
@@ -354,6 +381,9 @@ msgstr "Nicht verfügbar oder nicht berechtigt"
 
 msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
 msgstr "Nicht verfügbar: Das benötigte Modul oder die Verwaltungsseite fehlt, oder die Berechtigung reicht nicht aus. Gespeicherte Einstellungen bleiben erhalten."
+
+msgid "Updated the bundled Library and GitHub updater for shared installations."
+msgstr "Mitgelieferte Library und GitHub-Updater für gemeinsame Installationen aktualisiert."
 
 msgid "User exclusions configured"
 msgstr "Benutzersperren eingerichtet"

@@ -189,6 +189,7 @@ final class Settings {
 			$ready = in_array( $id, $available, true );
 			echo '<article class="dtfq-card dtfq-addon' . ( $addon['active'] ? ' dtfq-card-active' : '' ) . '" id="dtfq-addon-' . esc_attr( $id ) . '" aria-labelledby="dtfq-addon-title-' . esc_attr( $id ) . '"><div class="dtfq-card-heading"><h4 id="dtfq-addon-title-' . esc_attr( $id ) . '">' . esc_html( $addon['label'] ) . '</h4>';
 			self::badge( $addon['active'] ? __( 'Active', 'types-fields-quicknav' ) : __( 'Not detected', 'types-fields-quicknav' ), $addon['active'] ? 'active' : 'neutral' );
+			/* translators: %s: Name of the provider extended by the add-on. */
 			echo '</div><p class="dtfq-card-context">' . esc_html( sprintf( __( 'Extends: %s', 'types-fields-quicknav' ), $addon['provider'] ) ) . '</p><p class="dtfq-main-choice">';
 			self::checkbox( '[addons][' . $id . ']', $options['addons'][ $id ], __( 'Show in the toolbar', 'types-fields-quicknav' ) );
 			echo '</p><div class="dtfq-addon-availability">';
@@ -239,6 +240,7 @@ echo '<nav class="dtfq-jump-links" aria-label="' . esc_attr__( 'Settings section
 		echo '</p><p class="description">' . esc_html__( 'Off by default. These links open content lists, not type definitions.', 'types-fields-quicknav' ) . '</p>';
 		foreach ( Plugin::content_types() as $key => $type ) {
 			echo '<p>';
+			/* translators: %s: Content type label. */
 			self::checkbox( '[excluded_types][]', in_array( $key, $options['excluded_types'], true ), sprintf( __( 'Hide content list: %s', 'types-fields-quicknav' ), $type->labels->name ), $key );
 			echo '</p>';
 		}

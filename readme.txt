@@ -4,7 +4,7 @@ Tags: toolbar, custom fields, custom post types, navigation
 Requires at least: 7.1.2
 Tested up to: 7.1.2
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,10 @@ Frontend navigation is off by default. When enabled, it includes verified defini
 Settings are retained by default. Each website may opt in to deleting its own QuickNav settings on uninstall. Provider content and data are never removed. Shared Library cleanup follows its own settings and last-host rules.
 
 == Changelog ==
+
+= 1.0.1 =
+* Improved: Updated the bundled Library and GitHub updater for shared installations.
+* Fixed: Strengthened update package validation and refined administration output.
 
 = 1.0.0 =
 * New: Configurable toolbar navigation for ACF, Meta Box, JetEngine, ACPT and Pods, with additional Toolset and Secure Custom Fields support.

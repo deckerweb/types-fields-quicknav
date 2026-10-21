@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+### 1.0.1 · 2026-10-22
+
+- **Verbessert:** Mitgelieferte Library und GitHub-Updater für gemeinsame Installationen aktualisiert.
+- **Behoben:** Prüfung von Updatepaketen verstärkt und Verwaltungsausgabe verbessert.
+
 ### 1.0.0 · 2026-10-18
 
 - **Neu:** Konfigurierbare Toolbar-Navigation für ACF, Meta Box, JetEngine, ACPT und Pods sowie zusätzliche Unterstützung für Toolset und Secure Custom Fields.

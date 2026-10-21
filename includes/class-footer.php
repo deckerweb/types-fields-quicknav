@@ -23,8 +23,11 @@ final class Footer {
 				self::history();
 			} else {
 				foreach ( $documents[ $id ] as $block ) {
-					$tag = 'heading' === $block['type'] ? 'h3' : 'p';
-					echo '<' . $tag . '>' . esc_html( $block['text'] ) . '</' . $tag . '>';
+					if ( 'heading' === $block['type'] ) {
+						echo '<h3>' . esc_html( $block['text'] ) . '</h3>';
+					} else {
+						echo '<p>' . esc_html( $block['text'] ) . '</p>';
+					}
 				}
 				if ( 'documentation' === $id ) {
 					echo '<p><a href="https://github.com/deckerweb/types-fields-quicknav/wiki/' . ( $de ? 'Home-de' : 'Home' ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Documentation', 'types-fields-quicknav' ) . '</a></p>';
@@ -42,7 +45,7 @@ final class Footer {
 			foreach ( $categories as $key => $label ) {
 				foreach ( $release['entries'] as $entry ) {
 					if ( $key === $entry['category'] ) {
-						echo '<li><span class="dtfq-changelog-badge dtfq-changelog-' . esc_attr( $key ) . '">' . esc_html( $label ) . '</span><span>' . esc_html( translate( $entry['text'], 'types-fields-quicknav' ) ) . '</span></li>';
+						echo '<li><span class="dtfq-changelog-badge dtfq-changelog-' . esc_attr( $key ) . '">' . esc_html( $label ) . '</span><span>' . esc_html( $entry['text'] ) . '</span></li>';
 					}
 				}
 			}

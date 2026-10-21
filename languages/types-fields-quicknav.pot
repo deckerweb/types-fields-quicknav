@@ -82,6 +82,9 @@ msgstr ""
 msgid "Detected providers"
 msgstr ""
 
+msgid "Dismiss this notice"
+msgstr ""
+
 msgid "Documentation"
 msgstr ""
 
@@ -130,6 +133,9 @@ msgstr ""
 msgid "General"
 msgstr ""
 
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr ""
+
 msgid "GitHub release does not contain the plugin main file."
 msgstr ""
 
@@ -164,6 +170,9 @@ msgid "License settings"
 msgstr ""
 
 msgid "Manage Pods and fields"
+msgstr ""
+
+msgid "Manage installed plugins"
 msgstr ""
 
 msgid "Manage options pages"
@@ -235,6 +244,9 @@ msgstr ""
 msgid "Optional navigation for ACF Extended, ACF: Better Search and ACF Font Awesome Field; add-on links are off by default."
 msgstr ""
 
+msgid "Permission denied."
+msgstr ""
+
 msgid "Post forms"
 msgstr ""
 
@@ -251,6 +263,9 @@ msgid "Providers and navigation"
 msgstr ""
 
 msgid "Providers enabled in QuickNav"
+msgstr ""
+
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
 msgstr ""
 
 msgid "QUICKNAV series badge in the English and German banners; the icon remains unchanged."
@@ -310,7 +325,16 @@ msgstr ""
 msgid "Some usernames were not found on this website. The previous user exclusions have been kept."
 msgstr ""
 
+msgid "Strengthened update package validation and refined administration output."
+msgstr ""
+
 msgid "Template configuration"
+msgstr ""
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+msgid "The approved release could not be verified."
 msgstr ""
 
 msgid "The plugin must be installed in a stable slug directory."
@@ -323,6 +347,9 @@ msgid "The private update could not be authorized. Check the repository credenti
 msgstr ""
 
 msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid "The update package does not match Types & Fields QuickNav or its requirements."
 msgstr ""
 
 msgid "The update package does not match this plugin or its platform requirements."
@@ -353,6 +380,9 @@ msgid "Unavailable or not permitted"
 msgstr ""
 
 msgid "Unavailable: the required module or administration page is missing, or permission is insufficient. Saved choices are retained."
+msgstr ""
+
+msgid "Updated the bundled Library and GitHub updater for shared installations."
 msgstr ""
 
 msgid "User exclusions configured"

@@ -1,6 +1,8 @@
 <?php
 /** Site-scoped optional deletion and shared component cleanup. @package TypesFieldsQuickNav */
 defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
+$dtfq_updater_class = require __DIR__ . '/includes/deckerweb-github-release-updater-v2.php';
+$dtfq_updater_class::clear_repository_cache( 'https://github.com/deckerweb/types-fields-quicknav' );
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
 deckerweb_library_uninstall_v3( __DIR__ . '/types-fields-quicknav.php' );
 
@@ -15,16 +17,16 @@ function dtfq_delete_site_settings(): void {
 	}
 }
 if ( is_multisite() ) {
-	$offset = 0;
+	$dtfq_offset = 0;
 	do {
-		$ids = get_sites( [ 'fields' => 'ids', 'number' => 100, 'offset' => $offset ] );
-		foreach ( $ids as $id ) {
-			switch_to_blog( (int) $id );
+		$dtfq_ids = get_sites( [ 'fields' => 'ids', 'number' => 100, 'offset' => $dtfq_offset ] );
+		foreach ( $dtfq_ids as $dtfq_id ) {
+			switch_to_blog( (int) $dtfq_id );
 			dtfq_delete_site_settings();
 			restore_current_blog();
 		}
-		$offset += 100;
-	} while ( count( $ids ) === 100 );
+		$dtfq_offset += 100;
+	} while ( count( $dtfq_ids ) === 100 );
 } else {
 	dtfq_delete_site_settings();
 }

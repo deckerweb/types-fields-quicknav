@@ -14,7 +14,7 @@ Ob eigene Projekte oder wechselnde Kunden-Websites: Types & Fields QuickNav pass
 
 ## Version und Voraussetzungen
 
-**1.0.0** · WordPress ab 7.1.2; PHP ab 8.2. Für die Provider-Navigation wird mindestens ein unterstützter Provider benötigt. Die Einstellungen bleiben auch ohne Provider erreichbar.
+**1.0.1** · WordPress ab 7.1.2; PHP ab 8.2. Für die Provider-Navigation wird mindestens ein unterstützter Provider benötigt. Die Einstellungen bleiben auch ohne Provider erreichbar.
 
 [Releases](https://github.com/deckerweb/types-fields-quicknav/releases) · [Docs / Doku](docs/README-de.md)
 
@@ -116,6 +116,11 @@ Einstellungen bleiben standardmäßig erhalten. Jede Website kann ihre eigenen Q
 
 ## Änderungsverlauf
 
+### 1.0.1 · 2026-10-22
+
+- **Verbessert:** Mitgelieferte Library und GitHub-Updater für gemeinsame Installationen aktualisiert.
+- **Behoben:** Prüfung von Updatepaketen verstärkt und Verwaltungsausgabe verbessert.
+
 ### 1.0.0 · 2026-10-18
 
 - **Neu:** Konfigurierbare Toolbar-Navigation für ACF, Meta Box, JetEngine, ACPT und Pods sowie zusätzliche Unterstützung für Toolset und Secure Custom Fields.
@@ -136,7 +141,7 @@ Sicherheitslücken vertraulich über [GitHub Security Advisories](https://github
 
 Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later.
 
-Mitgeliefert: deckerweb Library 1.0.0 ([source](https://github.com/deckerweb/deckerweb-plugin-library)) und deckerweb Updater 2.1.0, David Decker – DECKERWEB, GPL-2.0-or-later. Keine Provider-Quelltexte enthalten.
+Mitgeliefert: deckerweb Library 1.1.0 ([source](https://github.com/deckerweb/deckerweb-plugin-library)) und deckerweb Updater 2.2.1, David Decker – DECKERWEB, GPL-2.0-or-later. Keine Provider-Quelltexte enthalten.
 
 Footer presentation adapted from deckerweb Admin Footer v1 in [Multisite Toolbar Additions](https://github.com/deckerweb/multisite-toolbar-additions), David Decker – DECKERWEB, GPL-2.0-or-later. / Footer-Gestaltung auf Grundlage derselben Komponente.
 

@@ -3,7 +3,7 @@
  * Plugin Name: Types & Fields QuickNav
  * Plugin URI: https://github.com/deckerweb/types-fields-quicknav
  * Description: Quick toolbar access to available content type and custom field administration.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 7.1.2
  * Requires PHP: 8.2
  * Author: David Decker – DECKERWEB
@@ -21,11 +21,14 @@
 
 defined( 'ABSPATH' ) || exit;
 define( 'DTFQ_FILE', __FILE__ );
-define( 'DTFQ_VERSION', '1.0.0' );
+define( 'DTFQ_VERSION', '1.0.1' );
 require_once __DIR__ . '/includes/deckerweb-plugin-library/bootstrap.php';
 deckerweb_library_register_v2( __FILE__, [], __DIR__ . '/includes/deckerweb-plugin-library' );
 if ( is_admin() || wp_doing_cron() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
-	require_once __DIR__ . '/includes/components.php';
+	/** @return void Registers the pinned updater after WordPress initializes translations. */
+	add_action( 'init', static function (): void {
+		require __DIR__ . '/includes/components.php';
+	}, 20 );
 }
 require_once __DIR__ . '/includes/class-provider.php';
 require_once __DIR__ . '/includes/class-plugin.php';

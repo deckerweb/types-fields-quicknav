@@ -2,20 +2,11 @@
 /** Pinned shared component integration. @package TypesFieldsQuickNav */
 namespace Deckerweb\TypesFieldsQuickNav;
 defined( 'ABSPATH' ) || exit;
-// Source: David Decker's deckerweb Updater 2.1.0, GPL-2.0-or-later; included unchanged.
-if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
-	require_once __DIR__ . '/deckerweb-github-release-updater-v2.php';
-}
-/**
- * Translate updater messages through the host catalog.
- * @param string $message Original component message.
- * @return string Localized host-domain message.
- */
-$dtfq_translate = static function ( string $message ): string {
-	return translate( $message, 'types-fields-quicknav' );
-};
+// Source: deckerweb Updater 2.2.1, David Decker – DECKERWEB, GPL-2.0-or-later; runtime unchanged.
+$dtfq_updater_class = require __DIR__ . '/deckerweb-github-release-updater-v2.php';
+$dtfq_translate = require __DIR__ . '/updater-translations.php';
 $dtfq_language = str_starts_with( determine_locale(), 'de' ) ? 'de' : 'en';
-$dtfq_updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
+$dtfq_updater = new $dtfq_updater_class(
 	DTFQ_FILE,
 	'https://github.com/deckerweb/types-fields-quicknav',
 	'Types & Fields QuickNav',
@@ -34,3 +25,6 @@ $dtfq_updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
 	[ 'translate' => $dtfq_translate ]
 );
 $dtfq_updater->register();
+
+require_once __DIR__ . '/class-update-package.php';
+add_filter( 'upgrader_source_selection', [ UpdatePackage::class, 'validate' ], 30, 4 );
